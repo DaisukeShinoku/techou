@@ -1,0 +1,21 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "bin/**/*"
+    - "config/**/*"
+
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Exclude:
+    - "Gemfile"
+    - "Rakefile"
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
