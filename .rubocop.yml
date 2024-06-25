@@ -16,6 +16,12 @@ Layout/SpaceInsidePercentLiteralDelimiters:
     - "Gemfile"
     - "Rakefile"
 
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 5
+
 Style/Documentation:
   Enabled: false
 
